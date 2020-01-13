@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-const SearchBox = ({ searchChange }) => {
+const SearchBox = ({ onSearch }) => {
   return (
     <Fragment>
       <div className="pa2">
@@ -8,7 +8,7 @@ const SearchBox = ({ searchChange }) => {
           className="pa2 b--green bg-lightest-blue"
           type="search"
           placeholder="search robots"
-          onChange={searchChange}
+          onChange={onSearch}
         />
       </div>
     </Fragment>
