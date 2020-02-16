@@ -10,3 +10,6 @@
   <li>Used APIs to randome generate robot names and Photos for a more realistic approach</li>
   <li>Managed to understand state management with React</li>
   </ul>
+
+
+<a href="https://janmichaelse.github.io/RobotFriends/">Check it out!</a>
